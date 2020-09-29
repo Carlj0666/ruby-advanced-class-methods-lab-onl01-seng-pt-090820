@@ -42,8 +42,8 @@ class Song
     self.find_by_name(name)
   end
 
-  def self.alphabetical(file)
-    #need to iterate
+  def self.alphabetical(name)
+    @@all.sort_by
   end
 
 end

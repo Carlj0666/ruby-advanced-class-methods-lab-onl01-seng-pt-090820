@@ -48,7 +48,7 @@ class Song
 
   def self.new_file_from_filename(file_name)
     split_title = file_name.split(", ")
-    
+    binding.pry
     
   #   rows = csv_data.split("\n")
   #   people = rows.collect do |row|

@@ -52,6 +52,7 @@ class Song
     track_name = split_title[1]
     #binding.pry
   end
+  end
     binding.pry
   #   rows = csv_data.split("\n")
   #   people = rows.collect do |row|

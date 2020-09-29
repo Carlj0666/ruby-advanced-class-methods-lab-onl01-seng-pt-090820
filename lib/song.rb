@@ -49,7 +49,7 @@ class Song
   def self.new_file_from_filename(file_name)
     split_title = file_name.split("-")
     binding.pry
-    split_title.pop
+    #split_title.pop
     
     artist = split_title[0]
     track_name = split_title[1]

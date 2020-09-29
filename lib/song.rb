@@ -46,7 +46,7 @@ class Song
     @@all.sort_by{|song| song.name}
   end
 
-  def self.new_from_filename(array)
+  def self.new_from_filename(song)
     split_title = song.split(" - ")
     
     split_title.chomp(".mp3") #hardcode

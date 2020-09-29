@@ -47,7 +47,7 @@ class Song
   end
 
   def self.new_file_from_filename(file_name)
-    split_title = file_name.split("-", ".")
+    split_title = file_name.split(" - ")
 
     split_title.pop
     

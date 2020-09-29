@@ -50,9 +50,9 @@ class Song
     split_title = file_name.split("-")
     artist = split_title[0]
     track_name = split_title[1]
-    binding.pry
+    #binding.pry
   end
-    
+    binding.pry
   #   rows = csv_data.split("\n")
   #   people = rows.collect do |row|
   #     data = row.split(", ")

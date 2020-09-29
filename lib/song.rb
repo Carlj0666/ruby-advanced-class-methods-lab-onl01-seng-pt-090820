@@ -62,8 +62,6 @@ class Song
 
 end
 
-end
-
   #   rows = csv_data.split("\n")
   #   people = rows.collect do |row|
   #     data = row.split(", ")

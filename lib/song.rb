@@ -47,7 +47,7 @@ class Song
   end
 
     binding.pry
-  def self.new_from_filename(song)
+  def self.new_from_filename(filename)
     split_title = song.split(" - ")
     
     split_title.chomp(".mp3") #hardcode

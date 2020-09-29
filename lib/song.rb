@@ -43,5 +43,6 @@ class Song
     else 
       self.create_by_name
     end
+    self
   end
 end

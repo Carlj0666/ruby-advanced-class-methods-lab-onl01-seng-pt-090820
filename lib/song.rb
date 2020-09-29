@@ -43,8 +43,11 @@ class Song
   end
 
   def self.alphabetical
-    #binding.pry
     @@all.sort_by{|song| song.name}
   end
 
+  def self.new_file_from_filename()
+    
+  end
+  
 end

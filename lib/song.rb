@@ -59,7 +59,7 @@ class Song
     song.artist = singer
    # new_song
   end
-  new_song
+
 end
 
 end

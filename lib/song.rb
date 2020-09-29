@@ -48,6 +48,8 @@ class Song
 
   def self.new_file_from_filename(file_name)
     split_title = file_name.split("-")
+    artist = split_title[0]
+    track_name = split_title[1]
     binding.pry
   end
     

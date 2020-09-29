@@ -35,9 +35,9 @@ class Song
   
   def self.find_by_name(name)
     #binding.pry
-    @@all.find{|name| self.name == name}
+    @@all.find{|song| self.name == name}
     self
-  end
+end
 
   
 end

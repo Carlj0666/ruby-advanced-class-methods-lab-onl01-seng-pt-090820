@@ -57,7 +57,7 @@ class Song
     new_song = Song.new
     song.name = title
     song.artist = artist_name
-
+    binding.pry
 
     new_song
     end

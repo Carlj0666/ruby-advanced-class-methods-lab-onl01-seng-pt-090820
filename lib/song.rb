@@ -57,8 +57,8 @@ class Song
     title = split_title[2]
     
     new_song = Song.new
-    song.name = title
-    song.artist = artist_name
+    new_song.name = title
+    new_song.artist = artist_name
 
 
     new_song

@@ -54,7 +54,7 @@ class Song
     new_song.name = split_title[1]
     new_song.artist_name = split_title[0]
     new_song
-    end
+  end
     
   def self.create_from_filename(filename)
     filename.chomp!('.mp3')
@@ -64,7 +64,11 @@ class Song
     new_song.artist_name = split_title[0]
     new_song.save
     new_song
-    end
+  end
+  
+  def destroy_all
+    @@all.delete
+  end
         
   end
   

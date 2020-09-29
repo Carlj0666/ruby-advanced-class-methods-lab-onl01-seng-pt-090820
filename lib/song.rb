@@ -67,7 +67,8 @@ class Song
   end
   
   def destroy_all
-    @@all.delete
+    @@all.each do |elements|
+      elements.delete
   end
         
   end

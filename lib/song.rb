@@ -35,6 +35,9 @@ class Song
   
   def self.find_by_name(name)
     binding.pry
+    @@all.each do |name|
+      if @@all.name == name
+        name
   end
   
 end

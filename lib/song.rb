@@ -39,6 +39,7 @@ class Song
       if @@all.name == name
         name
       end
+    end
   end
   
 end

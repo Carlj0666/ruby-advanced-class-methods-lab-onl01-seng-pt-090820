@@ -49,17 +49,21 @@ class Song
   def self.new_file_from_filename(file_name)
     split_title = file_name.split("-")
 
-    #split_title.pop
+    split_title.pop
     
-    artist = split_title[0]
+    singer = split_title[0]
     track_name = split_title[1]
     
     new_song = Song.new
     song.name = track_name
+    song.artist = singer
 
   end
+  new_song
   
   end
+  
+end
 
   #   rows = csv_data.split("\n")
   #   people = rows.collect do |row|

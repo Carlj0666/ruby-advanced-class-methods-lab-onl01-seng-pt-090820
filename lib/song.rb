@@ -42,6 +42,6 @@ class Song
     self.find_by_name 
     self.create_by_name
     end
-  end
+
 
 end

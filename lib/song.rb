@@ -41,8 +41,8 @@ class Song
     if self.find_by_name(name)
       self
       #binding.pry
-    else song = self.create_by_name(name)
-      song = self
+    else self = self.create_by_name(name)
+      self
     end
   end
 

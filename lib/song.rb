@@ -37,6 +37,7 @@ class Song
     #binding.pry
     if @@all[song] == name
       name
+    end
   end
 
   

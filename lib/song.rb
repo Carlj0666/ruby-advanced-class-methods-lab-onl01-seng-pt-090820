@@ -51,7 +51,10 @@ class Song
     split_title.pop
     artist = split_title[0]
     track_name = split_title[1]
-
+    binding.pry
+    new_song = Song.new
+    song.name = track_name
+    song.title
   end
   end
 
@@ -71,4 +74,3 @@ class Song
   #   people
   # end
   
-end

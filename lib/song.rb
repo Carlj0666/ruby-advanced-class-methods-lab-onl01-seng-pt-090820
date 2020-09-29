@@ -38,6 +38,7 @@ class Song
     @@all.each do |name|
       if @@all.name == name
         name
+      end
   end
   
 end

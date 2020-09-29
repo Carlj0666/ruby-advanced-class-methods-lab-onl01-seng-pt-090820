@@ -67,7 +67,7 @@ class Song
   end
   
   def destroy_all
-    @@all = []
+    @@all.delete(@@all.length - 1)
   end
         
   end

@@ -46,7 +46,8 @@ class Song
     @@all.sort_by{|song| song.name}
   end
 
-  def self.new_file_from_filename(file)
+  def self.new_file_from_filename(file_name)
+    split_title = file_name.split(", ")
     
     
   #   rows = csv_data.split("\n")

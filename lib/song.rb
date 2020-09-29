@@ -20,7 +20,7 @@ class Song
   end
   
   def self.new_by_name(name)
-    #binding.pry
+
     song = Song.new
     song.name = name
     song
@@ -34,8 +34,7 @@ class Song
   end
   
   def self.find_by_name(name)
-    name = @@all.song
-    @@all.include?(name)
+        #binding.pry
   end
   
 end

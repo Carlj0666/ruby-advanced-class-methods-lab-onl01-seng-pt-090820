@@ -42,7 +42,7 @@ class Song
       self
       #binding.pry
     else self = self.create_by_name(name)
-      song
+      self
     end
   end
 

@@ -66,12 +66,10 @@ class Song
     new_song
   end
   
-  def destroy_all(@@all)
+  def destroy_all
     @@all.clear
-  @@all
   end
-        
-  end
+
 end
   
 

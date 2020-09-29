@@ -52,10 +52,10 @@ class Song
     #split_title.chomp(".mp3") #hardcode
     
     artist_name = split_title[0]
-    song = split_title[2]
+    title = split_title[2]
     
     new_song = Song.new
-    song.name = song
+    song.name = title
     song.artist = artist_name
 
   end

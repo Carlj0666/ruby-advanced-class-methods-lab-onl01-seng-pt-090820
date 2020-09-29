@@ -42,8 +42,6 @@ class Song
     if self.find_by_name 
       song
     else self.create_by_name
-      song
-    end
   end
 
 end

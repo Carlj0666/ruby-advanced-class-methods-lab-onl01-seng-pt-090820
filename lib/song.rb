@@ -37,6 +37,6 @@ class Song
     #binding.pry
     @@all.all.find{|song| song.name == name}
   end
-end
+
 
 end

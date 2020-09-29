@@ -43,5 +43,7 @@ class Song
   end
 
   def self.alphabetical(file)
+    #need to iterate
+  end
 
 end
